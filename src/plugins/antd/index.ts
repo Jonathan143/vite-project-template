@@ -9,6 +9,7 @@ import {
   message,
 } from 'ant-design-vue'
 import { App } from 'vue'
+import 'ant-design-vue/dist/antd.css'
 
 // 防止弹出大量消息
 message.config({

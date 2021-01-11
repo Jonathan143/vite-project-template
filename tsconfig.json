@@ -8,7 +8,13 @@
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["esnext", "dom"],
-    "types": ["vite/client"],
+    "baseUrl": ".",
+    "types": ["vite/client", "node"],
+    "paths": {
+      "/@/*": [
+        "src/*"
+      ]
+    },
     "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],

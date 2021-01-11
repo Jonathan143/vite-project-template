@@ -19,8 +19,7 @@ export default defineConfig({
   ],
   alias: {
     //vite中alias必须以斜线开头和结尾，暂时未知原因，这样其实挺不方便的
-    //所以在eslint配置alias和文件中导入路径也要相应的修改
-    '/@/': path.resolve(__dirname, './src'),
+    '/@/': path.resolve(__dirname, './src') + '/',
   },
   optimizeDeps: {
     include: ['lodash', 'axios'],
