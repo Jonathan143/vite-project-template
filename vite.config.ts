@@ -22,7 +22,7 @@ export default defineConfig({
     '/@/': path.resolve(__dirname, './src') + '/',
   },
   optimizeDeps: {
-    include: ['lodash', 'axios'],
+    include: ['lodash', 'axios', '@ant-design/icons-vue'],
   },
   css: {
     preprocessorOptions: {

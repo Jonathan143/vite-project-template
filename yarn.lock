@@ -3621,10 +3621,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vite-plugin-imp@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-imp/-/vite-plugin-imp-2.0.1.tgz#f2ba4ad5290e2037a7346b2b4d6e9b8fcbaac881"
-  integrity sha512-xOLyEryC4v5JbXL/9palhWToAfXoqLldA/emLf5num1c85bBgYhLhaPrGLabmw2q3umQ8A4MiKrRA8+JVcZ1NQ==
+vite-plugin-imp@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/vite-plugin-imp/download/vite-plugin-imp-2.0.2.tgz#a71abcd9afad983f49edff59f87e5c45a972a0d3"
+  integrity sha1-pxq82a+tmD9J7f9Z+H5cRalyoNM=
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/generator" "^7.12.11"
@@ -3633,10 +3633,10 @@ vite-plugin-imp@^2.0.1:
     chalk "^4.1.0"
     param-case "^3.0.4"
 
-vite@^2.0.0-beta.20:
-  version "2.0.0-beta.20"
-  resolved "https://registry.npm.taobao.org/vite/download/vite-2.0.0-beta.20.tgz#338d436345be7e3474b5077f9ff6e3e70048834b"
-  integrity sha1-M41DY0W+fjR0tQd/n/bj5wBIg0s=
+vite@^2.0.0-beta.29:
+  version "2.0.0-beta.29"
+  resolved "https://registry.npm.taobao.org/vite/download/vite-2.0.0-beta.29.tgz#42e05c485e6ad6deaa7e5ea6e4187c87c6d1bad5"
+  integrity sha1-QuBcSF5q1t6qfl6m5Bh8h8bRutU=
   dependencies:
     esbuild "^0.8.26"
     postcss "^8.2.1"

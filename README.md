@@ -1,7 +1,5 @@
 # vite-project-template
 
-## 按需引入待完善（❌）
-
 ## Git 规范
 
 使用 [commitlint](https://github.com/conventional-changelog/commitlint) 工具，常用有以下几种类型：
