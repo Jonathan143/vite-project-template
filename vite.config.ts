@@ -18,8 +18,7 @@ export default defineConfig({
     }),
   ],
   alias: {
-    //vite中alias必须以斜线开头和结尾，暂时未知原因，这样其实挺不方便的
-    '/@/': path.resolve(__dirname, './src') + '/',
+    '@/': path.resolve(__dirname, './src') + '/',
   },
   optimizeDeps: {
     include: ['lodash', 'axios', '@ant-design/icons-vue'],

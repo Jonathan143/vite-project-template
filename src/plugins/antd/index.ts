@@ -5,10 +5,12 @@ import {
   Form,
   Input,
   Layout,
+  Tooltip,
   Menu,
   message,
 } from 'ant-design-vue'
 import { App } from 'vue'
+import 'ant-design-vue/lib/style/index.css'
 
 // 防止弹出大量消息
 message.config({
@@ -41,5 +43,6 @@ export default {
       .use(Input)
       .use(Layout)
       .use(Menu)
+      .use(Tooltip)
   },
 }

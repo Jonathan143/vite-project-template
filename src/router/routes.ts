@@ -12,12 +12,12 @@ const frameIn: RouteRecordRaw[] = [
   {
     path: '/',
     redirect: { name: 'home' },
-    component: () => import('/@/layout/HeaderAside/index.vue'),
+    component: () => import('@/layout/HeaderAside/index.vue'),
     children: [
       {
         path: 'home',
         name: 'home',
-        component: () => import('/@/views/Home.vue'),
+        component: () => import('@/views/Home.vue'),
       },
     ],
   },
