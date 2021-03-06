@@ -17,11 +17,13 @@ export default defineConfig({
       ],
     }),
   ],
-  alias: {
-    '@/': path.resolve(__dirname, './src') + '/',
+  resolve: {
+    alias: {
+      '@/': path.resolve(__dirname, './src') + '/',
+    },
   },
   optimizeDeps: {
-    include: ['lodash', 'axios', '@ant-design/icons-vue'],
+    include: ['@ant-design/icons-vue'],
   },
   css: {
     preprocessorOptions: {
